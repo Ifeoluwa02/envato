@@ -1,0 +1,344 @@
+/* GLOBAL */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+body {
+    background: #ffffff;
+    font-family: 'Playfair Display', serif !important;
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+}
+
+h6 {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: capitalize;
+}
+h4 {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 43px;
+    text-transform: capitalize;
+}
+h5{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+
+p {
+    font-family: Roboto, 'Open Sans', sans-serif;
+}
+
+a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+    margin: 0 1.2rem !important;
+    font-size: 1rem;
+}
+
+a:hover {
+    color: #000000 !important;
+    text-decoration: none !important;
+}
+
+/* Nav */
+
+.nav {
+    background-color: #1F252A !important;
+}
+
+/* HeroImage */
+.hero {
+    background: url("../images/hero-Image.png") center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.hero-text {
+    padding-top: 8rem;
+}
+
+/* cards */
+.card-img-top {
+    width: 13rem;
+    height: 21.5rem;
+
+}
+
+.spacer {
+    height: 4rem;
+    background: #feffff;
+}
+
+.img-card {
+    margin-top: 6rem;
+    position: absolute;
+    border: 20px solid #feffff;
+}
+.overlay {
+    position: relative;
+    top: 100px;
+    left: 12%;
+}
+
+#clients {
+    background-color: #1F252A;
+    max-width: 926px;
+    height: 150px;
+    position: relative;
+    justify-items: center;
+    top: -5rem;
+}
+
+/* ABOUT SECTION  */
+.image-box {
+     background: url("../images/hand\ holding\ camera.png") center center no-repeat;
+     background-size: cover;
+     height: 400px;
+     width: 970px;
+     position: absolute;
+}
+.card-item {
+    position: relative;
+    top: 50px;
+    left: -30px;
+    padding: 2rem;
+    border: none;
+    border-radius: 0px;
+    background-color: #feffff;
+}
+
+.spacer2 {
+    padding: 13rem;
+}
+
+section {
+    padding: 1.5rem;
+}
+
+#services {
+    height: 100vh;
+}
+figure img {
+    max-width: 287px;
+    height: auto;
+}
+
+/* Media Queries */
+@media screen and (max-width:1024px) {
+    
+}
+
+@media screen and (max-width:768px) {
+    
+}
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 33%;
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100px;
+}
+section.container-fluid{
+	background: #FAFFFF;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+h6{
+	font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+color: #1F2430;
+}
+#new{
+left: 20px;
+right: 20px;
+top: 20px;
+display:flex;
+}
+#diamond{
+	position: absolute;
+ left: 250px;
+top: 124px;
+width: 12px;
+height: 12px;
+background: #3AAFA9;
+display:flex;
+transform: rotate(-45deg);
+}	
+hr.new1{
+  border:1px solid #B5B5B5;
+  border-radius: 5px;
+  	width:85%;
+}	
+.bs-example{
+        margin: 20px;        
+		font-family: Playfair Display;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+color: #FEFFFF;
+}
+
+h2{
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 43px;
+color: #1F2430;
+}
+#cover {
+    background:#1F252A  center no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#cover-caption {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+/* only used for background overlay not needed for centering */
+form:before {
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    border-radius: 5px;
+}
+h1,h3{
+	font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 43px;
+color: #FEFFFF;
+}
+label{
+	font-family: Playfair Display;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+color: #FEFFFF;
+}
+.btn-primary.custom-btn{
+	background: #00AEFF;
+border-radius: 5px;
+}
+.form-control:valid {
+  background-color:#1F252A!important;
+}
+/* Style for the website footer */
+.footer{
+    background-color: #2B7A78;
+    color: white;
+    padding:50px 50px;
+}
+footer .footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+footer .fh{
+    padding-bottom:-40px;
+	font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 23px;
+color: #FEFFFF;
+}
+footer .flex{
+    display: flex;
+   width: 40%;
+   margin-top:-6px;
+}
+footer ul li{
+    list-style: none;
+    padding: 5px 0;
+}
+footer .m-b li{
+    margin-left:-40px;
+}
+footer ul li a{
+    color: white;
+}
+footer  .newsletters{
+    display: flex;
+}
+footer  .newsletters input{
+    background-color:transparent;
+	border: 2px solid #B5B5B5;
+box-sizing: border-box;
+border-radius: 5px;
+    padding:0 10px ;
+}
+.flex a{
+    padding: 7px;
+}
+footer .newsletters .btn{
+	background: #00AEFF;
+	color:white;
+	font-family: Playfair Display;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+border-radius:0px 5px 5px 0px;
+}
+.nav-item{
+	font-family: Playfair Display;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+color: #FEFFFF;
+}
+
