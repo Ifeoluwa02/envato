@@ -42,8 +42,59 @@ font-weight: normal;
 font-size: 16px;
 text-align:center-left;
 line-height: 19px;
-/* text color 2 */
+animation: fadein 2s;
 color: #1F252A;
+}
+@keyframes fadein {
+from {
+opacity: 0;
+-webkit-transform: translate3d(0, 100%, 0);
+transform: translate3d(0, 100%, 0);
+}
+to {
+opacity: 1;
+-webkit-transform: none;
+transform: none;
+}
+}
+@-moz-keyframes fadein {
+/* Firefox */
+from {
+opacity: 0;
+-webkit-transform: translate3d(0, 100%, 0);
+transform: translate3d(0, 100%, 0);
+}
+to {
+opacity: 1;
+-webkit-transform: none;
+transform: none;
+}
+}
+@-webkit-keyframes fadein {
+/* Safari and Chrome */
+from {
+opacity: 0;
+-webkit-transform: translate3d(0, 100%, 0);
+transform: translate3d(0, 100%, 0);
+}
+to {
+opacity: 1;
+-webkit-transform: none;
+transform: none;
+}
+}
+@-o-keyframes fadein {
+/* Opera */
+from {
+opacity: 0;
+-webkit-transform: translate3d(0, 100%, 0);
+transform: translate3d(0, 100%, 0);
+}
+to {
+opacity: 1;
+-webkit-transform: none;
+transform: none;
+}
 }
 a {
 color: #ffffff !important;
@@ -112,6 +163,7 @@ width: 706px;
 height: 225px;
 left: 500px;
 top: 1200px;
+box-shadow: 1px 2px 4px rgba(214, 217, 223, 0.5);
 border: none;
 border-radius: 0px;
 background-color: #feffff;
@@ -167,6 +219,9 @@ max-width: 50%;
 .card-item{
 -ms-flex: 50%;
 flex: 50%;
+width: 825px;
+height: 325px;
+box-shadow: 5px 2px 4px rgba(214, 217, 223, 0.5);
 left:50px;
 max-width: 50%;
 }
@@ -199,6 +254,9 @@ max-width: 50%;
 .card-item{
 -ms-flex: 50%;
 flex: 50%;
+width: 825px;
+height: 325px;
+box-shadow: 5px 2px 4px rgba(214, 217, 223, 0.5);
 left:50px;
 max-width: 50%;
 }
