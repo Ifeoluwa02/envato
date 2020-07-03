@@ -109,8 +109,8 @@ top: 925px;
 .card-item {
 position: absolute;
 width: 706px;
-height: 293px;
-left: calc(50% - 706px/2 + 160px);
+height: 225px;
+left: 500px;
 top: 1200px;
 border: none;
 border-radius: 0px;
@@ -120,7 +120,7 @@ background-color: #feffff;
 padding-top: 65rem;
 }
 section {
-padding: 1.5rem;
+padding: 1rem;
 }
 #services {
 height: 100vh;
@@ -159,9 +159,15 @@ background: #FAFFFF;
 flex: 50%;
 max-width: 50%;
 }
-.card-item,#clients {
+#clients{
 -ms-flex: 50%;
 flex: 50%;
+max-width: 50%;
+}
+.card-item{
+-ms-flex: 50%;
+flex: 50%;
+left:50px;
 max-width: 50%;
 }
 .logo {
@@ -169,10 +175,9 @@ max-width: 50%;
 flex: 50%;
 max-width: 50%;
 }
-.image-box {
--ms-flex: 50%;
-flex: 50%;
-max-width: 100%;
+.nav-link,.new{
+display:flex;
+max-width: 50%;
 }
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -182,9 +187,15 @@ max-width: 100%;
 flex: 100%;
 max-width: 100%;
 }
-.card-item,#clients {
+#clients{
 -ms-flex: 50%;
 flex: 50%;
+max-width: 50%;
+}
+.card-item{
+-ms-flex: 50%;
+flex: 50%;
+left:50px;
 max-width: 50%;
 }
 .logo {
@@ -192,9 +203,8 @@ max-width: 50%;
 flex: 50%;
 max-width: 100%;
 }
-.image-box {
--ms-flex: 50%;
-flex: 50%;
+.nav-link,.new{
+display:flex;
 max-width: 50%;
 }
 }
@@ -319,6 +329,7 @@ width: 40%;
 margin-top:-6px;
 }
 footer .flex img{
+display: flex;
 width: 30px;
 height: auto;
 margin-top: 10px;
@@ -332,19 +343,9 @@ margin-left:-40px;
 }
 footer ul li a{
 color: white;
-}
-footer  .newsletters{
-display: flex;
-}
-footer  .newsletters input{
-background-color:transparent;
-border: 2px solid #B5B5B5;
-box-sizing: border-box;
-border-radius: 5px;
-padding:0 10px ;
-}
+}    
 .flex a{
-padding: 7px;
+padding: 7px;  
 }
 .mycustom input[type=text] {
 border: none;
@@ -352,19 +353,11 @@ width: 100%;
 padding-right: 123px;
 }
 .mycustom .input-group-prepend {
+display: flex;
 position: absolute;
 right: 4px;
 top: 4px;
 bottom: 4px;z-index:9;
-}
-footer .newsletters .btn{
-background: #00AEFF;
-color:white;
-font-family: Playfair Display;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-border-radius:0px 5px 5px 0px;
 }
 .nav-item{
 font-family: Playfair Display;
