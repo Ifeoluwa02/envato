@@ -159,6 +159,21 @@ background: #FAFFFF;
 flex: 50%;
 max-width: 50%;
 }
+.card-item,#clients {
+-ms-flex: 50%;
+flex: 50%;
+max-width: 50%;
+}
+.logo {
+-ms-flex: 50%;
+flex: 50%;
+max-width: 50%;
+}
+.image-box {
+-ms-flex: 50%;
+flex: 50%;
+max-width: 50%;
+}
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
@@ -166,6 +181,21 @@ max-width: 50%;
 -ms-flex: 100%;
 flex: 100%;
 max-width: 100%;
+}
+.card-item,#clients {
+-ms-flex: 50%;
+flex: 50%;
+max-width: 50%;
+}
+.logo {
+-ms-flex: 50%;
+flex: 50%;
+max-width: 50%;
+}
+.image-box {
+-ms-flex: 50%;
+flex: 50%;
+max-width: 50%;
 }
 }
 h6{
